@@ -1,0 +1,685 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>[Broken News] - Sept 17-23</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="0363a111-5e61-456c-9f50-abfd5a8f1bc8" class="page sans"><header><img class="page-cover-image" src="https://www.notion.so/images/page-cover/nasa_fingerprints_of_water_on_the_sand.jpg" style="object-position:center 60%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">❎</span></div><h1 class="page-title">[Broken News] - Sept 17-23</h1><p class="page-description"></p><table class="properties"><tbody><tr class="property-row property-row-created_time"><th><span class="icon property-icon"><svg role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0" class="typesCreatedAt"><path d="M8 15.126C11.8623 15.126 15.0615 11.9336 15.0615 8.06445C15.0615 4.20215 11.8623 1.00293 7.99316 1.00293C4.13086 1.00293 0.938477 4.20215 0.938477 8.06445C0.938477 11.9336 4.1377 15.126 8 15.126ZM8 13.7383C4.85547 13.7383 2.33301 11.209 2.33301 8.06445C2.33301 4.91992 4.84863 2.39746 7.99316 2.39746C11.1377 2.39746 13.6738 4.91992 13.6738 8.06445C13.6738 11.209 11.1445 13.7383 8 13.7383ZM4.54102 8.91211H7.99316C8.30078 8.91211 8.54004 8.67285 8.54004 8.37207V3.8877C8.54004 3.58691 8.30078 3.34766 7.99316 3.34766C7.69238 3.34766 7.45312 3.58691 7.45312 3.8877V7.83203H4.54102C4.2334 7.83203 4.00098 8.06445 4.00098 8.37207C4.00098 8.67285 4.2334 8.91211 4.54102 8.91211Z"></path></svg></span>Date Created</th><td><time>@September 25, 2023 11:49 AM</time></td></tr></tbody></table></header><div class="page-body"><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Welcome</summary><div class="indented"><figure id="8f85db39-843b-441b-a04e-473e5f273889" class="image" style="text-align:center"><a href="https://images.unsplash.com/photo-1652584466378-2c7313730d3e?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb"><img src="https://images.unsplash.com/photo-1652584466378-2c7313730d3e?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb"/></a></figure><p id="ae1c08fa-538a-4208-b11f-b84f23455e6e" class="">Good [Insert Time Here] Jesse and Chloe and anyone else, </p><p id="4f58c1e1-24b3-438d-8b1d-402483cfc8a9" class="">This weekly update is intended to… honestly I&#x27;m not sure. But it exists and That’s Not Nothing (Q1: Where is that line from?) I thought it would be fun to issue Quests throughout the newsletter to really lean into the ADHD feel. Maybe make things more interactive? I also thought you might like to have a way to reply, so some of the quests might be related to things you can send back? Not sure. 
+Anyway, here are some things I’ve found to be delightful this week, or interesting, or emotional, or whatever. I figured that might let you into my world, as if somehow your own world were lacking.</p><p id="98f36452-e103-4ae0-9f0c-6fab884ff41d" class="">
+</p><p id="32e6dfd9-d16b-46a1-a197-6b79a8f31832" class="">I am curious how network access is managed over there. Like, you cant use socials and emails on the reg, but can you use googles? What about music or books or podcasts? Its all a download life?
+
+Also, I wasn’t sure what categories would interest you two, so I went with the things that I gain the most info on in my day-to-day life.</p></div></details><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Music</summary><div class="indented"><figure id="26c738c5-421c-43ca-b1fd-1063bf29f78a" class="image"><a href="https://media3.giphy.com/media/aZmD30dCFaPXG/giphy.gif?cid=7941fdc6rf0xg1vwtcz3zf9ovmfqa0nr6zm6zyafrf3u1tgq&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g"><img src="https://media3.giphy.com/media/aZmD30dCFaPXG/giphy.gif?cid=7941fdc6rf0xg1vwtcz3zf9ovmfqa0nr6zm6zyafrf3u1tgq&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g"/></a></figure><p id="73218f15-5a21-41cf-bd60-d4d44ea9e750" class="">Spotify has given me a recommendation that I rather found interesting, its the album ‘Jiminy’ by Bear Claw, I think it was released awhile ago tho. Its got some fun songs.</p><figure id="f61165f7-1658-4001-88a5-034ecd2ee04a"><div class="source"><a href="https://open.spotify.com/embed/album/7m7d7dW6SmwMl6v55sHewv?utm_source=generator">https://open.spotify.com/embed/album/7m7d7dW6SmwMl6v55sHewv?utm_source=generator</a></div></figure><p id="c9ea9198-9d66-4cd3-ba54-60a7c8376188" class="">I found ‘Heavy News’ and ‘Rivers is a Vampire’ to be bangers, ‘Sirens’ is the most listened to on Spotify. [Q2: Check out Bear Ghost’s bio on Spotify, its worth the read.]</p><p id="c97e938f-300c-45db-ae41-2d8c745af791" class="">I also found ‘NO SZNS’ by Jean Dawson and SZA, which wouldn’t be something I’d strongly engage with, but its got a vibe: </p><figure id="824d1e55-cadc-4934-80fd-7f8842898908"><div class="source"><a href="https://open.spotify.com/embed/track/0dn6S6lJqAIQg90kMmWtVj?utm_source=generator">https://open.spotify.com/embed/track/0dn6S6lJqAIQg90kMmWtVj?utm_source=generator</a></div></figure><p id="e4b4b202-3c21-4956-bbdc-fecbc7c72ef6" class="">There is also a new release, ‘Gentle Confrontation’ by Loraine James that has a rather interesting song:</p><figure id="32968979-c94a-49b5-ba8f-4865408bcc6c"><div class="source"><a href="https://open.spotify.com/embed/track/0Uzlf3LBshr2fIU0G7OdY8?utm_source=generator">https://open.spotify.com/embed/track/0Uzlf3LBshr2fIU0G7OdY8?utm_source=generator</a></div></figure><p id="93d382a5-cc05-464f-bbc1-c1c356c24eb9" class="">Anyway, thats all I’ve got. Couldn’t find many other releases that interest me.</p><p id="84a9031a-53c6-4330-97dd-f40108353b35" class="">
+</p><p id="6bf305fd-c502-4667-9cbd-20c079854045" class="">HMU with any new music you think I’d appreciate!</p></div></details><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Science</summary><div class="indented"><figure id="8d173654-d07e-458f-906e-85cee2d80a52" class="image"><a href="%5BBroken%20News%5D%20-%20Sept%2017-23%200363a1115e61456c9f50abfd5a8f1bc8/Untitled.png"><img style="width:843px" src="%5BBroken%20News%5D%20-%20Sept%2017-23%200363a1115e61456c9f50abfd5a8f1bc8/Untitled.png"/></a></figure><p id="af079414-7b89-4f9c-9b7a-289fd0603d17" class="">Two logs show signs of being worked and assembled, and can be dated to nearly half a million years ago, which shows more complex tool use then previously associated with hominids at that time (anatomical <em><em><em><em><em><em><em><em><em><em><em><em>homo sapiens</em></em></em></em></em></em></em></em></em></em></em></em> have not been found older then 250 thousand years).  <a href="https://buff.ly/3Lz7tUt?fbclid=IwAR2z_UFgqeay5RLDaSuJdEyoP2mx259r7bY0u-bR4Nv_8b8o23yDT4tk6uo">https://buff.ly/3Lz7tUt</a></p><p id="d0943689-023c-4ddb-9b77-1ef7152773a9" class="">The opposite of déjà vu is &quot;jamais vu&quot;, when something you know to be familiar feels unreal or novel in some way. This paper highlights a study on the topic, but I still don’t get why it matters. <a href="https://buff.ly/44RLezO?fbclid=IwAR0wsq6HmuG9ipsf0cYgsSJ6RZwFI1ZCothBFiM9BuJFlpVcAlkeohqr794">https://buff.ly/44RLezO</a></p><p id="06613eae-b561-4571-8694-da8bc845b197" class="">We&#x27;ve witnessed <a href="https://www.washington.edu/news/2023/07/06/marine-heat-waves-caused-mass-seabird-die-offs-beach-surveys-show/">mass seabird deaths</a>, shores have been littered with <a href="https://www.sciencealert.com/millions-of-dead-fish-blanket-australian-river-in-hypoxia-disaster">droves of dead fish</a>, and <a href="https://www.sciencealert.com/a-neurotoxin-is-causing-sea-lions-to-bite-people-in-california">sea lions poisoned</a> by heat-induced algal blooms. Last year entire populations of <a href="https://www.sciencealert.com/penguin-breeding-colonies-catastrophically-failing-as-ice-vanishes-in-antarctica">penguins failed to breed</a> and for years now researchers have been investigating an <a href="https://www.sciencealert.com/study-warns-nature-is-under-threat-of-collapse-due-to-plummeting-insect-numbers">alarming reduction in insect life</a>. So ecologist Gerardo Ceballos from the National Autonomous University of Mexico and Stanford University conservation biologist Paul Ehrlich assessed species extinctions since 1500 CE and compared those through the past 500 million years. They found we&#x27;ve driven 73 genera of back-boned animals to extinction during the last 500 years. <a href="https://en.wikipedia.org/wiki/Genus">Genus</a> is the taxonomic classification just above species, grouping together the most closely related organisms, much like siblings, in a family tree. This rate is 35 times higher than previous genus-level extinctions.  <a href="https://buff.ly/3LxbUz6?fbclid=IwAR3O5r6sWmrzLX1Se9Tlc85bSTob99XnHWJVzAu14v-7oNtSmdDGAyia91g">https://buff.ly/3LxbUz6</a></p><p id="bb2278a0-386e-4b65-ac8a-cab5b2cb1abb" class="">Another big, violent, old animal:  <a href="https://buff.ly/3ZpyvDt?fbclid=IwAR0sQf-uF-4uQahbY80w36ijwLGCFKMj8yrKnu-x1CMJjfoOYjjjnmf5LAc">https://buff.ly/3ZpyvDt</a></p><figure id="9f9600b0-be21-4a59-ad52-75b88ebe537a" class="image"><a href="%5BBroken%20News%5D%20-%20Sept%2017-23%200363a1115e61456c9f50abfd5a8f1bc8/Untitled%201.png"><img style="width:642px" src="%5BBroken%20News%5D%20-%20Sept%2017-23%200363a1115e61456c9f50abfd5a8f1bc8/Untitled%201.png"/></a></figure><p id="8e46e9ea-9bc1-47d5-b6d9-73be069605a5" class="">A bunch of science hippies proved that Da Vinci’s rules for plant dimensions in art work aren’t always true in nature. Which isn’t surprising at all. It is surprising that anyone would pay for that tho. <a href="https://buff.ly/3Zumkp1?fbclid=IwAR3zrv7mhCJ8Ni0tZIOmaT2tAyaevGndPXYJFed3_SCwvoW1DH4dPrinf5E">https://buff.ly/3Zumkp1</a></p><p id="de037276-f163-4622-94e9-13cdcb5fd4cd" class="">Apparently mitochondria DNA mutate a bunch, and there are none in the spermies. This seems to minimize mutation rates and explains why nearly all animals inherit mDNA solely from the mother. <a href="https://buff.ly/3LVwAkD?fbclid=IwAR3zrv7mhCJ8Ni0tZIOmaT2tAyaevGndPXYJFed3_SCwvoW1DH4dPrinf5E">https://buff.ly/3LVwAkD</a></p><p id="6cccbca9-f391-416c-bbaa-8a8beebb5916" class="">[Q3: Hit me with the facts yo]</p></div></details><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Story Time</summary><div class="indented"><p id="e8529c5f-d1b3-4aa5-94a3-39a2827bd032" class="">I wrote Chapter 1 of this really odd thing, the idea is to bring the major mythic archetypes into a whole, an archetype of archetypes with nothing new whatsoever. </p><p id="9c366542-fa3f-47ff-aef0-1e52c2410d91" class="">[Q4: Can you write me Chapter 3? I have Chapter 2 (which introduces the King figure), but I haven’t yet has the Adventurer arrive at the King. In my mind Chapter 2 involves the Prince becoming infatuated with the Tree (which is actually a route to the bbeg, the giant), but the tree is somehow under the guardianship of the King. There&#x27;s the cast. Ch 2. need not deal with anything much at all, just a bit further on whatever you think the story means. Of course, my mind is not our mind, so there are no real rules I can give you that wouldn’t be as true as any rule you can give me.]
+
+<strong><strong><strong><strong><strong>Chapter 1: </strong></strong></strong></strong></strong></p><p id="b308f2c4-c0b0-46aa-963c-0cd9b82b3016" class="">We remember a story, if I recall correctly it starts as they all do.</p><p id="7629c250-9bfa-4754-bd4b-0766304a9671" class="">Once upon a time there was a boy [which, as we all know, is the same as a man, but with entirely too much energy and a conspicuous lack of wisdom]. He was bright and full of potential, as they all are if you bother to ask them. Anyway, this boy has a name, but we’ve so utterly forgotten it, even his mother couldn’t help us. The liberty is then mine to refer to him as Icarus, solely because I think that&#x27;s a dope-ass name, even though he would never respond to that title. </p><p id="7c7ca851-bbc8-4d55-99c5-ecc31397bafa" class="">Icarus was out for a walk, as one does, and passed by a snake in a fez, as they do, who happened to be selling some sort of oily seeds. We must take a moment to acknowledge the Germanic insistence that these were magical bean seeds [however distastefully passé that might be]. It would be much better had they been apple seed, or seeds of doubt, or invitations to a ball (which tend to be some of the best seeds). If I were the author, I’d say they were grape seeds, since grapes need a support to grow, but I’m not the author and the type of seed is not recorded. Icarus figured he should be eating seeds as a pastime activity, and went in for the sale. A passing goose in a fez suggested he not so alter his life, but the snake in a fez offered a compelling deal, so the transaction was verified after 24-48 hours of processing. With his rather delightful seeds in hand, Icarus immediately forgets his hopes and dreams, eats 2, finds that they taste terrible, and concludes such seeds are much better off planted beside a secluded spring guarded by the elemental forces of nature.</p><p id="40b140b8-1627-40b2-bf71-d8461feda13b" class="">With the passage of time, Icarus develops into a youth, now better known as Prince Charming. One day, the Prince finds himself wandering in the woods where he had once spent his childhood, and stumbles on a most exotic collection of biological growths commonly referred to as plants. Now, given his youth and proclivities, he would have certainly passed by, had that growth not reminded him of some aesthetic arrangement of feminine features. On closer inspection, Charming finds a grove of five entwinned trees of immense girth, incalculable height, and bearing more fruit per branch (fpb) then any prior tree had yet achieved.</p><p id="5ed2d38d-8148-41ac-8619-778cf559aff9" class="">
+</p></div></details><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Quests</summary><div class="indented"><p id="02f536cd-0f86-472a-aec6-9ab3eb593879" class="">Q1: Where is that line from? Its a Peterson thing I guess? He uses it to describe something that isn&#x27;t nothing and isn&#x27;t everything, so it comes up a lot.</p><p id="a0219c18-c49d-46b5-9e9a-34ff299f2dc5" class="">Q3: Hit me with the facts yo</p><p id="2ecaa6c7-15e6-4e7f-b774-e6fd60bbface" class="">Q2: Check out Bear Ghost’s bio on Spotify, its worth the read.</p><p id="dd48bb57-fb9d-49cd-8031-134d15f7f88c" class="">Q4: Can you write me Chapter 3? I have Chapter 2 (which introduces the King figure), but I haven’t yet has the Adventurer arrive at the King. In my mind Chapter 2 involves the Prince becoming infatuated with the Tree (which is actually a route to the bbeg, the giant), but the tree is somehow under the guardianship of the King. There&#x27;s the cast. Ch 2. need not deal with anything much at all, just a bit further on whatever you think the story means. Of course, my mind is not our mind, so there are no real rules I can give you that wouldn’t be as true as any rule you can give me.</p></div></details><p id="03800a2b-dadc-4a20-a1c2-1b28f1550905" class="">
+</p></div></article></body></html>
