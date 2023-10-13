@@ -1,0 +1,700 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>[Broken News] - Oct 1- 12 or so</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="e9c63670-8143-45f5-9290-803c818000d6" class="page sans"><header><img class="page-cover-image" src="https://www.notion.so/images/page-cover/nasa_fingerprints_of_water_on_the_sand.jpg" style="object-position:center 60%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">❎</span></div><h1 class="page-title">[Broken News] - Oct 1- 12 or so</h1><p class="page-description"></p><table class="properties"><tbody><tr class="property-row property-row-created_time"><th><span class="icon property-icon"><svg role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0" class="typesCreatedAt"><path d="M8 15.126C11.8623 15.126 15.0615 11.9336 15.0615 8.06445C15.0615 4.20215 11.8623 1.00293 7.99316 1.00293C4.13086 1.00293 0.938477 4.20215 0.938477 8.06445C0.938477 11.9336 4.1377 15.126 8 15.126ZM8 13.7383C4.85547 13.7383 2.33301 11.209 2.33301 8.06445C2.33301 4.91992 4.84863 2.39746 7.99316 2.39746C11.1377 2.39746 13.6738 4.91992 13.6738 8.06445C13.6738 11.209 11.1445 13.7383 8 13.7383ZM4.54102 8.91211H7.99316C8.30078 8.91211 8.54004 8.67285 8.54004 8.37207V3.8877C8.54004 3.58691 8.30078 3.34766 7.99316 3.34766C7.69238 3.34766 7.45312 3.58691 7.45312 3.8877V7.83203H4.54102C4.2334 7.83203 4.00098 8.06445 4.00098 8.37207C4.00098 8.67285 4.2334 8.91211 4.54102 8.91211Z"></path></svg></span>Date Created</th><td><time>@October 3, 2023 1:49 PM</time></td></tr></tbody></table></header><div class="page-body"><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Welcome</summary><div class="indented"><figure id="b0cf16d5-a44c-4397-b86b-98279ab44959" class="image" style="text-align:center"><a href="https://images.unsplash.com/photo-1652584466378-2c7313730d3e?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb"><img src="https://images.unsplash.com/photo-1652584466378-2c7313730d3e?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb"/></a></figure><p id="399101f2-ce3f-4158-b4f9-8f9eb2de7bf2" class="">Hey guys, welcome to Episode 2. I’ve decided to forgo the interactive quests, since it really doesn’t make much sense. </p><p id="246c7e83-28c0-43c6-8443-2e31b357f7b6" class="">Sadly, this episode is more sombre then the last; we don’t live in peaceful times. I did my best! Feedback would improve these things.</p><p id="ee48233d-26a9-4e77-8722-8adf29be81af" class="">[JESSE}] I actually just finished Project Hail Mary. Its amazing. The science is 10/10 on point. My one criticism is that the Astrophage energy storage is a bit… implausible to exist. But that’s all. On, and the noble gas composite material is likely not possible.</p><p id="c53f1269-714c-43ac-beb1-bf86e7bbd4d4" class="">[CHLOE] Jesse refused to help my story, which is sad, cause I though a break in my insane tone would help the reader. But ill survive.
+</p><p id="2a941419-4bb2-4717-a89d-06d71d4f806c" class="">In our lives there isn’t much going on? Just my projects, and dealing with my insane kids. 
+
+Let me know how I can pray for you.</p></div></details><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">News</summary><div class="indented"><p id="53ab8030-9097-4721-9737-b56d15308753" class="">Its been a bloody, spicy, non-kosher sort of two weeks, so I’ll take up a bunch of this issue to give the highly biased overview that only I am capable of giving. </p><h2 id="41288189-7f8d-4c2b-841a-46843c94a25c" class="">[Per Chloe] Canada/India Relations</h2><p id="cb79b739-2054-4d7d-89dd-702b696e8cf7" class="">So, a Canadian citizen named <a href="https://www.aljazeera.com/news/2023/9/19/india-canada-row-who-was-hardeep-singh-nijjar-what-is-khalistan-movement">Hardeep Singh Nijjar</a> (Indian ex-patriot) was murdered on June 18. Canadian investigations resulted in allegations of Indian involvement. From the Canadian perspective, this is an attack on their sovereignty, from the Indian perspective, Canada had been harbouring and permitting seditionist/insurrectionist movements. 
+
+So, the background is fairly messy and complex. 
+First off, we have to place the nations accurately in their geo-political setting. India has been actively developing defensive military pacts with nations surrounding China and the USA, which their relationship with Canada will reflect on to a degree. As former British commonwealths, Canada and India share significant <a href="https://www.international.gc.ca/country-pays/india-inde/relations.aspx?lang=eng">international partnerships</a>. The issue is that the expectations the nations have towards each other have been betrayed.</p><p id="563fb3aa-2fc8-4859-b92b-78b3b297c6be" class="">Why did Mr. Nijjar have to die? Well, he was an activist with the Sikh separatist movement, which has a somewhat sordid history in India (think French separatists with extra assassinations and letter bombs). At the time of assassination, he had organized a reformation in India for a separatist state, among other things. He was deemed a terrorist by the Indian government (the organization he is affiliated with is seen as a terrorist organization).</p><figure id="c3511c79-7e77-4ed7-9d03-b728c1a6f89c" class="image"><a href="%5BBroken%20News%5D%20-%20Oct%201-%2012%20or%20so%20e9c63670814345f59290803c818000d6/Untitled.png"><img style="width:770px" src="%5BBroken%20News%5D%20-%20Oct%201-%2012%20or%20so%20e9c63670814345f59290803c818000d6/Untitled.png"/></a></figure><p id="a26607a8-aead-41c4-a0aa-f08042bf2e66" class="">Things came to a head in mid September, when the two heads of state exchanged words on the subject, which escalated into a sort of Canadian accusation of an Indian assassination on Mr. Nijjar. India suspended visas, kicked out diplomats, etc. in an effort to pressure Canada to take it back. But probably more to push for extradition of Indian ex-patriots participating in seditionist movements, something Canada would basically never agree to.</p><h2 id="97271916-2e01-4490-8a41-122ad340e2c9" class="">America (i.e. Trump )</h2><p id="6fb6b161-04c5-4b85-b6d8-ee39604adf2e" class="">Some fun news; the Trump fueled bonfire that is American politics is heating up. Its nearly marshmallow season again!</p><p id="5719b158-3b80-4291-ac4b-587a00af1f6e" class="">Highlights: </p><ul id="bdf89e0b-519b-4598-b154-e905891a13fc" class="bulleted-list"><li style="list-style-type:disc">He is facing 4 inditements with <a href="https://www.politico.com/interactives/2023/trump-criminal-investigations-cases-tracker-list/#hush-money">almost 100 criminal charges</a>, which a guilty sentence at any might show him the slammer for the rest of his natural life. </li></ul><ul id="df63842c-e8dd-4f0f-ac4d-02e3b807e0f7" class="bulleted-list"><li style="list-style-type:disc">Several of the trial dates have been set, and its nearly certain that we will have inditement verdicts before the election, which will be a spicy meatball. </li></ul><ul id="4d54c11b-a186-46dc-bcd2-bcdef70b1f09" class="bulleted-list"><li style="list-style-type:disc">He was <a href="https://apnews.com/article/donald-trump-letitia-james-fraud-new-york-71df7b5f1e4d3c89937efa77e2922914">found guilty</a> for inflated property values, and a partial verdict was reached. This would fine him 250 million, and dissolve all his businesses in New York (which is a big deal). The ramifications are… wild. </li></ul><p id="92f4fced-0a75-4b07-9e16-409399d77f52" class="">Related news:</p><ul id="0d91bc59-cc0f-4da8-bc98-c29d7e9f5d91" class="bulleted-list"><li style="list-style-type:disc">The remarkably dysfunctional Republican party managed to freeze the house AGAIN over the budget (and last min managed to delay everything until Nov sometime). This was all a transparent ply to force the speaker to launch an indictment hearing into Hunter Biden, which backfired spectacularly (the lead witness took the stand to say that there was insufficient evidence to move forward). </li></ul><ul id="9e72d620-907c-4b69-bb5c-d50ad5bb449f" class="bulleted-list"><li style="list-style-type:disc">Immediately following that prank, the Republican party took a vote of no confidence in the speaker, who was kicked, for the first time ever. In the massive fallout, no speaker was aggreged on, and Trump was put forward as speaker. Which then drove enough of the republican party into desperation mode, appointing some other joe to the role (basically whomever Trump didn’t back), which is wild.</li></ul><ul id="1144d59e-1f3b-4941-91bc-07953ad340a4" class="bulleted-list"><li style="list-style-type:disc">A couple key cases of gerrymandering got verdicts in the past two weeks, which will force remapping in key states. I personally despise gerrymandering, and am particularly pleased that the Republicans are being held responsible for this anti-democratic nonsense. </li></ul><h2 id="debc450f-33ed-47f5-9fcc-4b217b45c2ec" class="">Various Wars 😢</h2><h3 id="954cc8c8-a89b-4124-afdc-c6f0002f8fcb" class="">Russia/Ukraine</h3><p id="1a08bc14-10e8-44f9-8f78-42cf91235696" class="">Thankfully, Russia has continued to make a fool of their logistics and army training. A major counter offensive managed to lose over 100 tanks + 100’s of units in the first day. Generally speaking, Russia takes 3 losses for every Ukrainian loss in all equipment categories, while taking something like double the <a href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html">armed forces losses</a>.</p><h3 id="78523dbb-700a-4924-ae44-b9db3b762ebe" class="">Israel/Palestine Conflict</h3><p id="17385abe-e656-4d6a-97e8-41c44ca5ca9f" class="">Sadly, Hamas has launched the first successful offensive from Gaza on Israel.</p><p id="0c69ebf6-27f1-4ea0-938e-0e3fd2089bfc" class="">Even more sadly, Israel has enabled this offensive in an effort to justify escalating their armed presence in Gaza, which seems likely to result in the elimination of Gaza, if things keep going at this rate.</p><p id="8a1e4624-5cae-4c93-84de-ac6aa79fc1c8" class="">Most news headlines read ‘Israel at war with terrorist organization Hamas’, which for the life of me I fail to understand. Wouldn&#x27;t the organization that uses terror be the <a href="https://www.amnesty.org/en/latest/news/2023/10/israel-opt-civilians-on-both-sides-paying-the-price-of-unprecedented-escalation-in-hostilities-between-israel-and-gaza-as-death-toll-mounts/">terrorists</a>? </p><p id="3c40c61c-d2f3-4920-bf6f-a0059c1bee62" class="">According to B’Tselem, between September 2000 and February 2017 Israeli forces killed 4,868 Palestinians in the OPT [Occupied Palestinian Territory], including 1,793 children, outside the context of armed conflict. [See the Amnesty International report at the end]</p><p id="3a15a18a-19cb-446e-92ef-7b5b5a4bd922" class="">In the context of Palestinian protests in the OPT, the conduct of Israeli forces appears to be intended to stifle dissent and freedom of expression. Palestinians frequently protest against Israeli occupation, as well as the policies and practices that underpin it, such as the blockade on Gaza, the creation and expansion of illegal settlements, land seizures, closures, arrests and detentions. The right to peaceful protest is of particular importance for Palestinians in the OPT, as they have no opportunity to influence the policy of the occupying power through voting or other such means. Israeli forces frequently resort to lethal means and fire rubber-coated metal bullets and live firearms ammunition at protesters, causing deaths and injuries.</p><p id="6cc37f94-daf1-43ad-9df0-97cfee6a0709" class=""><a href="https://www.amnesty.org/en/documents/mde15/5141/2022/en/">Amnesty International Report</a></p><p id="2a5877f5-58ef-4d12-ae83-32b59e6b8a9a" class="">The conflict began on the 6th of October. The proceeding <a href="https://en.wikipedia.org/wiki/Timeline_of_the_Israeli–Palestinian_conflict_in_2023">timeline </a>is complex, and not helpful for me to cover.</p><p id="b089b9e9-120a-49d9-aa60-958552b7d1ed" class="">The fact is that there is no explicit provocation for Hamas to attack; however the rumor is that Israel bated them with a military maneuver. There allegedly was a military movement out from a command post of the <a href="https://www.aljazeera.com/news/2023/10/12/whats-the-israel-iron-dome-defence-system-and-is-it-effective-all-to-know">Iron Dome</a>, which offered an opportunity for Hamas to ?disable? the Iron Dome and launch their missile/civilian offensive.</p><p id="8341d3a9-3816-41c4-9179-566e148b37bd" class="">Other interesting features of the conflict:</p><ul id="6f9f285b-ac30-4068-b400-ca6655400d22" class="bulleted-list"><li style="list-style-type:disc">The Israeli Prime Minister<strong> </strong>Benjamin Netanyahu, in a <a href="https://apnews.com/article/israel-judicial-overhaul-netanyahu-d4ebdff08f42b225f7a2a933f7d793f5">controversial move</a>, functionally removed the Supreme Court just prior to the attack.</li></ul><ul id="1a18be05-f6a0-4700-b586-100f2aa9f184" class="bulleted-list"><li style="list-style-type:disc">Hamas is known to be funded by Iran and Russia, and in general, by the anti-American nations.</li></ul><ul id="7e1cdfee-2a3c-4477-8826-057be2f43959" class="bulleted-list"><li style="list-style-type:disc">The general status of the situation has received an absurd degree of misinformation (greater then that of the Ukraine-Russia conflict at the outset IMO). Specifically, Hamas has been accused of beheading infants, raping and murdering indiscriminately, and, in general, being vile. Some sites have retracted these stories, as they were initially spread from Israeli sources and little evidence exists. There are videos of Hamas freedom fighters shouting to not harm women/children, as they aren’t beasts. </li></ul><p id="d180c1e6-a5fe-43db-8688-e0f8c6ec5e8a" class="">I’ve spent so much time on this point because its very close to my heart. Something is very wrong with a Christian community that would defend the oppression and proliferation of the refugee, widowed, and orphaned, yet that seems to be the status quo. I figured that might be something that you might be exposed to and wanted to share as many of the details of the conflict as I can access. </p></div></details><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Food?</summary><div class="indented"><p id="84288aa5-7589-4fe5-8f2f-4ccd0a5fff7c" class="">I recall something about you guys needing to make food or whatever.</p><p id="24f1bdf0-5ddb-4574-a035-37f29f432168" class="">Let me hit you with a key technique you should have for preparing beautiful foods. </p><p id="d14f7ecf-0b47-41e6-a244-20f8c47bc17a" class="">Brining. </p><figure id="793e61cc-1b50-4258-8c7c-bc288a5be8d5" class="image"><a href="https://media1.giphy.com/media/m4vd1xl6fZ9wk/giphy.gif?cid=7941fdc6dpoa6fjgckgm57aqur18n9dl83nu2vpcg2u930hh&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g"><img src="https://media1.giphy.com/media/m4vd1xl6fZ9wk/giphy.gif?cid=7941fdc6dpoa6fjgckgm57aqur18n9dl83nu2vpcg2u930hh&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g"/></a></figure><p id="e46be0a7-471f-4e1e-94fd-37aa2811d5c4" class="">Its easy to do; cover a typically tough meat (typically Turkey, but like, if you find yourself with a 8 year old rabbit, Id brine that thing back from the grave.) mix 1 table spoon of salt per cup of water in the brine (use enough to cover the consumption creatin). Season the brine appropriately (just chuck a bunch of herbs that usually go in the dish in the bring, like sage, pepper, oregano, thyme, rosemary, whatever). Feel free to turn the brine into a broth if you have broth or powder around. Brine for like an hour or two per pound. Cook in the oven to a regular internal temp (like 170 or whatever). Bam. Best juiciest dang roast beast of all time.</p><p id="3e01aa41-89cf-428a-a416-f7fafe666191" class="">
+</p><p id="da04ecd0-466e-4e68-bd08-8e71766372a5" class="">Let me know if this section interests you. I have tips for a good red sauce (good for pasta/lasagna), baked chicken, and how to deep fry tougher cuts. </p></div></details><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Music</summary><div class="indented"><figure id="05d4679c-bfbc-4bf0-b021-c3b33e4d6e24" class="image"><a href="https://media3.giphy.com/media/aZmD30dCFaPXG/giphy.gif?cid=7941fdc6rf0xg1vwtcz3zf9ovmfqa0nr6zm6zyafrf3u1tgq&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g"><img src="https://media3.giphy.com/media/aZmD30dCFaPXG/giphy.gif?cid=7941fdc6rf0xg1vwtcz3zf9ovmfqa0nr6zm6zyafrf3u1tgq&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g"/></a></figure><p id="f1a77bbe-b252-4477-8d5e-f9aa82db5e00" class="">Sadly, I don’t have the time or energy to do this section as well as I could. </p><p id="6b04ac7c-0bea-4729-9de6-a789c9f0c304" class="">I found this, I love the melody and haunting tone, but kinda dislike the chorus hip-hop vibes.</p><figure id="5859544e-bd2d-4785-bdda-ace54f39ae8c"><div class="source"><a href="https://open.spotify.com/embed/track/6V3OLZgJzFTTOKmOk7joMr?utm_source=generator">https://open.spotify.com/embed/track/6V3OLZgJzFTTOKmOk7joMr?utm_source=generator</a></div></figure><p id="b0a9862f-8aaf-4edc-92b4-1727fa5992ae" class="">The Deer Hunter released a new album!</p><figure id="49b69f09-009f-479d-9212-a5c9da3e3572"><div class="source"><a href="https://open.spotify.com/embed/album/1W8TnWhdIGBEDuShEXjpWu?utm_source=generator">https://open.spotify.com/embed/album/1W8TnWhdIGBEDuShEXjpWu?utm_source=generator</a></div></figure><p id="f3b7c159-b485-4fa7-a679-0b0775446e06" class="">There is this new single from Theocracy, which is this Christian prog power metal band who&#x27;s song ‘I Am’ I really like [full disclosure, that’s also the only song of theirs that I like so far]:</p><figure id="9eda7002-2d1f-406b-917c-1237a455d8e2"><div class="source"><a href="https://open.spotify.com/embed/album/1VOQmpvv8oMwWxybpToI1m?utm_source=generator">https://open.spotify.com/embed/album/1VOQmpvv8oMwWxybpToI1m?utm_source=generator</a></div></figure><figure id="ae1b00aa-171b-4c4c-8539-f89bfb6e2504"><div class="source"><a href="https://open.spotify.com/embed/track/3DnFSIQHAclH1u1Fg1rIvr?utm_source=generator">https://open.spotify.com/embed/track/3DnFSIQHAclH1u1Fg1rIvr?utm_source=generator</a></div></figure><p id="9e5776ee-651a-485d-9263-adba9e7ec027" class="">
+</p><p id="ca9034c7-265b-44c2-a2b3-3c067221af88" class="">HMU with your recs.</p></div></details><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Science</summary><div class="indented"><p id="427db9d6-1d9e-4cad-b2c8-3c2f2dbaeb8c" class="">Its a lot easier on me to just post the image and links, so go nuts and check out whatever interests you. If its confusing, I can give any feedback you ask for.</p><figure id="a1a72da6-e186-4361-9f70-5cad0b5d8a85" class="image"><a href="%5BBroken%20News%5D%20-%20Oct%201-%2012%20or%20so%20e9c63670814345f59290803c818000d6/Untitled%201.png"><img style="width:1638px" src="%5BBroken%20News%5D%20-%20Oct%201-%2012%20or%20so%20e9c63670814345f59290803c818000d6/Untitled%201.png"/></a></figure><p id="c63c2f5a-71dc-4e53-845b-3c60fea3669b" class="">Lightning: <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3F6ABif%3Ffbclid%3DIwAR2G9W6VRUZoYnQyI5KCzYy1Gvu4I54PKYVLlgILJ8rAlQIKo5IcN8Vtkgk&amp;h=AT1CNpK6n7P6GJSfYx5TNB4JudyNh0oRFp8EEFdfxWLW2LGbYuxRFsPUDPGMP9DHkOVImP_gPZi_T98gGGayHDpFA-fgBRufTs5OO-mh8u_fHZ9PPtQ5hZk32qYwduBXGgKd&amp;__tn__=-UK*F">https://bit.ly/3F6ABif</a></p><p id="26d3e41b-9dee-4e87-9ba3-7fbb885e7055" class="">Physics Nobel: <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3Q8t091%3Ffbclid%3DIwAR2_cqHltZkPbq37j3dahGxilMkxqeOdCWasdSgK21iy9MiFjsPYV3lhGgE&amp;h=AT0XY4P7FUTlebxpjcut1u5nY4qfq2NkMzQh3131osubEG6zhoXuOZCPlHHO1B_5UO8i5Cxv4LEtfTZFcckkFxz7oyOg7iwdhcnksXaxmOWiu9_MO_G7pFZh4CbB39qDiWws&amp;__tn__=-UK*F">https://bit.ly/3Q8t091</a></p><p id="10e4f701-7e32-4b19-9ef4-f6a3c8d7284d" class="">Chemistry Nobel: <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3ZJIbJ3%3Ffbclid%3DIwAR1DQqWqXL4bNQQAeh-onuDzJKsApjTU4Jb2OjHzM9N7X_BDf7wmhQ1kWB4&amp;h=AT32nNQE9HM4O37UXsevFg-4i4SXKDm-aHhf3l-gaMdXzAlqND0kAMaXrInraGsazSdY4PfDkqEa8KHRo9O8a0XRiajkkRjCJre5YAmZrm1X7DvtPl1e2k0bV8RB1n23Ho92&amp;__tn__=-UK*F">https://bit.ly/3ZJIbJ3</a></p><p id="53a19ba5-c895-45aa-80af-9dff35cb9da6" class="">Fat Burning: <a href="https://bit.ly/3LRuXnS?fbclid=IwAR0ONRxXzdVK1sdO1ygUdKM4sq0HqJS1Q6I956ExKj0rCnDKqluhTKxyo84">https://bit.ly/3LRuXnS</a></p><p id="48ac8c18-9815-4654-8e48-4bf8e82ddede" class="">Medicine Nobel: <a href="https://bit.ly/3tpAGeg?fbclid=IwAR2x_YwtLreRrxkT7ynPvQd6ULytbpV7UwrudbaD7LIsyW1bVnUta6BmcHI">https://bit.ly/3tpAGeg</a></p><p id="3f3dd2bd-1a6c-4e67-892f-aa041fe96144" class="">OSIRIS-REx: <a href="https://bit.ly/46J5NzV?fbclid=IwAR2-mUCEryF4o5AGpXekxQ6SYjzsCHZ_7tT6aAqcznUfWgXUIyHL_8xq6r8">https://bit.ly/46J5NzV</a></p><p id="82af1fbd-fee8-4fa3-8b65-0c4aa3e4acad" class="">
+</p><figure id="d0a9708d-54e4-4516-ab7c-d26270839437" class="image"><a href="%5BBroken%20News%5D%20-%20Oct%201-%2012%20or%20so%20e9c63670814345f59290803c818000d6/Untitled%202.png"><img style="width:768px" src="%5BBroken%20News%5D%20-%20Oct%201-%2012%20or%20so%20e9c63670814345f59290803c818000d6/Untitled%202.png"/></a></figure><p id="58a6aa72-7c11-4d04-941c-c7f879aaea4c" class="">Antimatter: <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F48CNvC8%3Ffbclid%3DIwAR0W7A2r4mTwS8EtuO-TZ18Vq4IDlW-i8XePSmmoa3Dgole9Lse0T2DgIE8&amp;h=AT14x020qJ7Dg4PAauDOTik5AlEV0BvN0wBDUF1SY_Fgocva46h6WEYj7MfnElo58lsfH3DDY2o0OCttR7LkIbPmy7_1GLKrc16wNVAMd_-DQBOBadYxRTyayArklDva5wyM&amp;__tn__=-UK-R&amp;c[0]=AT3O-StcbLsCjkYobHUpZf_pk3o-qOCkWx2H_mzrDE3a4kYrtes-Kpu1EPnDLU00Uh7kH_4VsNbl2_FqTAPThsBEbutxeUaePHt7D223FnDbu9uMKf45dXTBlB8mUy_a94VINcMi18rhSB1thSK4xlIkZonrflO4OhkmdFVmGbxHLOnV40MBkyrW7ohUuvXrGn86IZrz4wG1">https://bit.ly/48CNvC8</a></p><p id="6a3fa77a-0c7b-4606-bc4f-3ef76bbcabac" class="">Entanglement: <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F46dyt41%3Ffbclid%3DIwAR1iWrdKWKOabXlkxhvtqIUyppH2tE1ZuKL3VYno1fg09YVb2TnpaZmfrLg&amp;h=AT02hR132ff3ka2_XFhyuwpdMF6UHEdQhWoUOsamVBQxiUn6V8iqgLpWlv560XgNPp4aDb9vNLyxR4PnWJ4eQV6fPtRlFucfS7BsO4See3DX8G65oftHoW3PrB4z-w_zMmpa&amp;__tn__=-UK-R&amp;c[0]=AT3O-StcbLsCjkYobHUpZf_pk3o-qOCkWx2H_mzrDE3a4kYrtes-Kpu1EPnDLU00Uh7kH_4VsNbl2_FqTAPThsBEbutxeUaePHt7D223FnDbu9uMKf45dXTBlB8mUy_a94VINcMi18rhSB1thSK4xlIkZonrflO4OhkmdFVmGbxHLOnV40MBkyrW7ohUuvXrGn86IZrz4wG1">https://bit.ly/46dyt41</a></p><p id="be5d641c-dbbd-4f4f-8dc7-e609857f3646" class="">Beer Aroma: <a href="https://bit.ly/3F2vm33?fbclid=IwAR0W7A2r4mTwS8EtuO-TZ18Vq4IDlW-i8XePSmmoa3Dgole9Lse0T2DgIE8">https://bit.ly/3F2vm33</a></p><p id="3c3d1f48-30c5-4852-9541-604ddc5080d5" class="">Caffeine: <a href="https://bit.ly/3EVIDKN?fbclid=IwAR0EJ3uKytZ3rcZXuYtf6pY8EjybnXQtEl1eOg6DBxyRr2AZjyo6ksDjsBQ">https://bit.ly/3EVIDKN</a></p><p id="1fee6992-540d-4d7f-8a89-bae456deb2a5" class="">Brain Signals: <a href="https://bit.ly/3rqQ0qt?fbclid=IwAR3RAeBhRCb1Z3uTkKGwgr-6KObcvegtG-umeOdZvmLP_2SMFWjtfFan3Bs">https://bit.ly/3rqQ0qt</a></p><p id="c1010308-49df-4c19-a67f-52640902ce6d" class="">OSIRIS-REx: <a href="https://bit.ly/48xkk3k?fbclid=IwAR1o6UY7tlcNq5AR7YDvfEz0oGapTNDcKwjKa8HigW2WdnnaeI6F8osAfJw">https://bit.ly/48xkk3k</a></p></div></details><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Story Time</summary><div class="indented"><p id="6f4663c9-0342-4017-8682-6699d6037fcd" class="">So, my emotions have been taken by the recent conflicts, and how people have managed to see through each others humanity. I couldn’t get to chapter 2. But I’ve been writing.</p><p id="019d5a42-3ddb-4cff-90f7-64834232af6c" class="">Here are some excerpts of a famous speech that I sometimes like to listen to:</p><blockquote id="adcffe3e-ecc7-46b6-9982-96524788c590" class="">Now, there are at least two ways in which sit-ins and civil disobedience and whatever -- least two major ways in which it can occur. One, when a law exists, is promulgated, which is totally unacceptable to people and they violate it again and again and again till it&#x27;s rescinded, appealed. Alright, but there&#x27;s another way. There&#x27;s another way. Sometimes, the form of the law is such as to render impossible its effective violation -- as a method to have it repealed. Sometimes, the grievances of people are more -- extend more -- to more than just the law, extend to a whole mode of arbitrary power, a whole mode of arbitrary exercise of arbitrary power.
+[…]
+And that -- that brings me to the second mode of civil disobedience. There&#x27;s a time when the operation of the machine becomes so odious, makes you so sick at heart that you can&#x27;t take part! You can&#x27;t even passively take part! And you&#x27;ve got to put your bodies upon the gears and upon the wheels, upon the levers, upon all the apparatus -- and you&#x27;ve got to make it stop! And you&#x27;ve got to indicate to the people who run it, to the people who own it -- that unless you&#x27;re free the machine will be prevented from working at all!!
+[…]
+That doesn&#x27;t mean that you have to break anything. One thousand people sitting down some place, not letting anybody by, not [letting] anything happen, can stop any machine, including this machine! And it will stop!!</blockquote><p id="811a4ae6-34b2-44dd-b738-bfe150619846" class="">
+</p><p id="e1e0693f-243f-4f55-adea-411025f368af" class="">Simultaneously, I’ve been looking into buying a house as an investment. This got me on the money thoughts. Here’s a few words on that.<div class="indented"><p id="93d9b4a9-00cd-433a-b026-6f4d919359b7" class="">‘You’ve got to tell your money what to do or it will leave’
+So she heard as she walked through the door
+’Life will not make allowance for you, but it will pay you what you earn’
+Whispered her last twenty, terrified at what that means
+’When people get scared they quit giving’
+It was everything she had, and fear hadn’t brought her here
+’You have to teach the children about money intentionally, create teachable moments’
+That was it. Her parents had taught her Love, and that was all that she had left after the last pence slipped past her fingers and drifted lightly, vaporous, to become invisible yet invaluably beyond her reach</p></div></p><p id="a4c21185-d52d-4345-bff7-f83049a5c99c" class="">In case I’ve accidently been obscure again, above is a mashup between the generous widow and a <em>ahem</em> prominent Christian figure associated with financial management (who I happen to think poorly of).</p><p id="90d921dd-69a9-4057-900e-f6c7e4452f17" class="">
+</p><p id="bb6444e4-6082-4024-9da2-4ba7595abe97" class="">
+</p></div></details><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Quests</summary><div class="indented"><p id="ead08cee-92e0-4f9a-be6b-3985e0752e72" class="">Q1: Be active, not passive</p></div></details><p id="993431fc-eabc-47e6-938f-f3ade20ab7e3" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
